@@ -17,7 +17,7 @@ This project is about creating a drum machine where users can interact with clic
 
 ### Screenshot
 
-![](https://www.linkpicture.com/q/Ekran-goruntusu-2023-06-01-174408.png)
+![](https://www.linkpicture.com/q/Ekran-goruntusu-2023-06-05-205015.png)
 
 ### Links
 
