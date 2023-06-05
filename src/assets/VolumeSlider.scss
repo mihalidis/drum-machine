@@ -1,0 +1,38 @@
+// Range Input Slider
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: -1px 0px 5px 2px rgba(0, 255, 209, 1);
+}
+
+/* Track */
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 15px;
+  background: #f2fa5a;
+  border-radius: 5px;
+}
+
+/* Thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid #5ee6eb;
+  box-shadow: -407px 0 0 400px #5ee6eb;
+}
+
+.neon-slider {
+  display: flex;
+  align-items: center;
+  max-width: 650px;
+  width: 100%;
+  margin: 10px 0;
+}

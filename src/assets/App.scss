@@ -1,0 +1,52 @@
+
+
+.drum-machine {
+  display: flex;
+  gap: 30px;
+  background-color: #334756;
+  border: 1px solid #00ffd1;
+  padding: 20px;
+  box-shadow: 0px 0px 17px 4px rgba(0, 255, 209, 1);
+
+  .keyboard {
+    display: flex;
+    max-width: 200px;
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+
+  .drum-pad {
+    border: 1px solid #00ffd1;
+    color: #00ffd1;
+    max-width: 50px;
+    max-height: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #2192ff;
+    box-shadow: -1px 0px 5px 2px rgba(0, 255, 209, 1);
+    cursor: pointer;
+
+    &.is-playing {
+      box-shadow: -1px 0px 5px 2px rgba(251, 37, 118, 1);
+      border: 1px solid #fb2576;
+      background-color: #ea047e;
+    }
+  }
+
+  .control-board {
+    &--info {
+      background-color: #787a91;
+      padding: 8px;
+      text-align: center;
+      margin: 15px 0;
+      color: #00ffd1;
+      border-radius: 5px;
+      height: 30px;
+      width: 230px;
+    }
+
+    &--switch-title {
+      color: #00ffd1;
+    }
+  }
+}
