@@ -2,7 +2,7 @@
 
 This project is about creating a drum machine where users can interact with clickable drum pads or trigger them using specific keyboard keys, resulting in the corresponding audio clips being played. The drum pads are arranged in a specific order and have unique identifiers. When a drum pad is triggered, the associated audio clip is played, and a description of the clip is displayed in the designated area. [FreeCodeCamp](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine).
 
-**Live:** 
+**Live:** https://drum-machine-kappa-two.vercel.app/
 
 ## Table of contents
 
@@ -21,8 +21,8 @@ This project is about creating a drum machine where users can interact with clic
 
 ### Links
 
-- Solution URL: [Github Repository]()
-- Live Site URL: [Markdown Previewer]()
+- Solution URL: [Github Repository](https://github.com/mihalidis/drum-machine)
+- Live Site URL: [Markdown Previewer](https://drum-machine-kappa-two.vercel.app/)
 
 ## My process
 
